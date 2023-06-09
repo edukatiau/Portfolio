@@ -55,7 +55,9 @@ body{
 }
 
 .apresentacao-links-link{
-    /* background-color: #22d4fd; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     text-align: center;
     border: 2px solid aqua;
@@ -68,3 +70,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.apresentacao-links-link:hover{
+    background-color: #272727;
+}
