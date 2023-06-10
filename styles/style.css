@@ -99,6 +99,10 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
+.fa-brands{
+    color: var(--cor-terciaria);
+}
+
 .apresentacao-links-navegacao:hover{
     background-color: var(--cor-hover);
 }
